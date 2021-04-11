@@ -1,0 +1,36 @@
+{
+    "name": "minab_recipes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JohnZDictator/minab_recipes.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JohnZDictator/minab_recipes/issues"
+    },
+    "homepage": "https://github.com/JohnZDictator/minab_recipes#readme",
+    "dependencies": {
+        "apollo-server": "^2.22.2",
+        "apollo-server-express": "^2.22.2",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "graphql": "^15.5.0",
+        "lodash": "^4.17.21",
+        "pg": "^8.5.1",
+        "pg-hstore": "^2.3.3",
+        "sequelize": "^6.6.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
