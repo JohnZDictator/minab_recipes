@@ -8,7 +8,12 @@ const User = db.define('user', {
         allowNull: false,
         validate: { notEmpty: true, },
     },
-    password: {
+    hash: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: { notEmpty: true, },
+    },
+    salt: {
         type: Sequelize.STRING,
         allowNull: false,
         validate: { notEmpty: true, },
